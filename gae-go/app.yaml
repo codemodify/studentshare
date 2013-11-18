@@ -1,0 +1,16 @@
+application: mumstudentshare
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /
+  static_files: app/client/index.html
+  upload: app/client/index.html
+
+- url: /(.*\.(css|gif|png|jpg|ico|js|html))
+  static_files: app/client/\1
+  upload: app/client/(.*\.(css|gif|png|jpg|ico|js|html))
+
+- url: /.*
+  script: _go_app

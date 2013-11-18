@@ -1,0 +1,1 @@
+C:\Users\nicu\Apps\MongoDB\mongod.exe --dbpath C:\Users\nicu\Projects\mumstudentshare\db --port 9090

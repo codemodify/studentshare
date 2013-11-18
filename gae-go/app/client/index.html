@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>MUM Student Share</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" Social Network - Sharing of stuff between MUM students">
+        <meta name="author" content="Nicolae Carabut">
+
+        <link href="css/kendo.common.min.css" rel="stylesheet" type="text/css">
+        <link href="css/kendo.default.min.css" rel="stylesheet" type="text/css">
+        <link href="css/jquery.switchButton.css" rel="stylesheet" type="text/css">
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/kendo.web.min.js" type="text/javascript"></script>
+        <script src="js/jquery.base64.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/jquery.switchButton.js" type="text/javascript"></script>
+        <script src="App.js" type="text/javascript"></script>
+
+        <style>
+            body {
+                font-family: "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+                font-size: 12px;
+            }
+            .k-i-new {
+                background-image: url("images/newitem.png");
+            }
+            .k-i-reloadmessages {
+                background-image: url("images/messageload.gif");
+            }
+            .product {
+                float: left;
+                position: relative;
+                width: 111px;
+                height: 170px;
+                margin: 5px;
+                padding: 0;
+                overflow: hidden;
+            }
+            .product img {
+                width: 110px;
+                height: 110px;
+            }
+            .product div {
+                margin: 0;
+                padding: 0;
+                font-size: 10px;
+                font-family: Verdana;
+                color: #999;
+            }
+            .product p {
+                visibility: hidden;
+            }
+            .product:hover p {
+                visibility: visible;
+                position: absolute;
+                width: 110px;
+                height: 110px;
+                top: 0;
+                margin: 2px;
+                padding: 0;
+                text-align: center;
+                color: #fff;
+                background-color: rgba(0,0,0,0.75);
+                transition: background .2s linear, color .2s linear;
+                -moz-transition: background .2s linear, color .2s linear;
+                -webkit-transition: background .2s linear, color .2s linear;
+                -o-transition: background .2s linear, color .2s linear;
+            }
+            .k-listview:after {
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+            }
+
+            .hiddenElement {
+                display: none;
+            }
+            .visibleElement {
+                display: inline;
+            }
+        </style>
+    </head>
+
+    <body onload="App.Run();">
+
+        <!-- Login
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <div id="App-AuthDialog" class="k-content" style="display:none;">
+            <form>
+            <table>
+                <tr><td colspan="3"><input id="App-AuthDialog-User" class="k-textbox" placeholder="User"                 style="width: 250px;" /></td></tr>
+                <tr><td colspan="3"><input id="App-AuthDialog-Pass" class="k-textbox" placeholder="Pass" type="password" style="width: 250px;" /></td></tr>
+                <tr>
+                    <td colspan="2"><button id="App-AuthDialog-LoginButton" class="k-button k-state-selected" style="width: 205px;" type="submit">Login</button></td>
+                    <td colspan="1"><span id="App-AuthDialog-RegisterButton" class="k-button" style="width: 40px; float: right;">Reg</span></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+
+        <!-- Email
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <div id="App-SettingsDialog" class="k-content" style="display:none;">
+            <form>
+                <table>
+                    <tr><td colspan="3"><input id="App-SettingsDialog-Email" class="k-textbox" placeholder="Email" style="width: 250px;" /></td></tr>
+                    <tr>
+                        <td colspan="2"><button id="App-SettingsDialog-OkButton" class="k-button k-state-selected" style="width: 205px;" type="submit">OK</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+
+        <!-- Progress Loader
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <div id="App-LoadingProgress" class="k-loading-mask" style="display:none;">
+            <span class="k-loading-text">Loading...</span>
+            <div class="k-loading-image"></div>
+            <div class="k-loading-color"></div>
+        </div>
+
+        <!-- Left Side - Navigation
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <span id="App-Content-Left" style="float: left; margin-top: 80px; margin-left: 30px; visibility: hidden;">
+
+            <div id="App-Content-Left-Welcome">
+                H3y, Ch3ck +his 0u+. 4lso { <a href="#" style="text-decoration:none;" onclick="App.Auth.Setup()">Log1n</a> }
+            </div>  
+            <div style="height: 10px;">
+            </div>
+
+            <div id="example" class="k-content">
+                <div id="organizer">
+                    <ul id="panelbar">
+                        <li>
+                            About
+                            <div style="padding: 10px; font-family: Verdana; font-size: 10px;">
+                                This site is designed for use by the new and "been there" students of MUM.
+                                Here they can exchange information and help-out each other.
+
+                                <br/><br/>
+                                THE WHY
+
+                                <br/>
+                                As a new arrived I had some small but kind of bugging dificulties finding 
+                                the stuff that can help me for the next months of studies. 
+
+                                <br/><br/>
+                                Exemple ( in order of awakeness ;) ): 
+                                <br/> (o) where do I get a bike ?
+                                <br/> (o) where do I rent a bike ?
+                                <br/> (o) where do I buy a bike ?
+                                <br/> (o) where do I buy a bike cheaper ??
+                                <br/> [...] some time passes [...]
+                                <br/> (o) where do I buy a car cheaper ?
+                                <br/> (o) where do I ... ?
+                                <br/> (o) etc, etc
+                                
+                                <br/><br/>
+                                So the idea is simple, use "Forums" IF
+                                <br/>(o) You need something => post in "Wanted"
+                                <br/>(o) You have stuff => post in "Get Rid"
+                                <br/>(o) You fell off the moon => there is chat for that
+                                
+                                <br/><br/>
+                                Fixes and features will be added in time.
+                                Suggestions are very welcome. Help is Welcome.
+                                
+                                <br/><br/>
+                                Tech: this is a Node app, Mongo back-end, 
+                                Kendo UI, JavaScript as BL.
+                            </div>
+                        </li>
+                        <li class="k-state-active"> 
+                            Forums 
+                            <span style="position: absolute; right: 0px;">
+                                [<span id="App-Content-Left-Forums-Replies">0</span> : R3pli3s f0r m3]
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </span>
+                            
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;Borrow            <span style="position: absolute; right: 0px;"><input type="checkbox" name="borrowMy"   id="borrowMy">  </span></li>
+                                <li>&nbsp;&nbsp;&nbsp;Get Rid (sell)    <span style="position: absolute; right: 0px;"><input type="checkbox" name="sellMy"     id="sellMy">    </span></li>
+                                <li>&nbsp;&nbsp;&nbsp;Wanted (buy)      <span style="position: absolute; right: 0px;"><input type="checkbox" name="wantedMy"   id="wantedMy">  </span></li>
+                                <li>&nbsp;&nbsp;&nbsp;Chat !                                                                                                                                               </li>
+                            </ul>
+                        </li>
+                        <li>
+                            News
+                            <div style="padding: 10px; font-family: Verdana; font-size: 10px;">
+                                Kewl mobile apps with notifications are in the work. 
+                                Look for "mum student share".
+                                
+                                <br/>
+                                <br/>iPhone App - is almost done.
+                                <br/>Android App - work in progress.
+                                <br/>Windows Phone App - work in progress.
+                                
+                                <br/><br/>
+                                Last updated: 10/13/2013
+                            </div>
+                        </li>
+                        <li disabled="disabled">
+                            <span style="font-family: Verdana; font-size: 10px;">
+                                Ideas => nicolae dot carabut [] gmail dot com
+                            </span>
+                        </li>
+                    </ul>
+                    <div id="bottom"></div>
+                </div>
+                <style scoped>
+                    #organizer {
+                        width: 300px;
+                        margin: 0 auto;
+                        padding: 47px 0 0 0;
+                        background: url('images/sidepanelheader.png') transparent no-repeat 0 0;
+                    }
+                    #bottom {
+                        width: 300px;
+                        height: 90px;
+                        background: url('images/sidepanelfooter.png') transparent no-repeat 0 0;
+                    }
+                    .teamMate:after {
+                        content: ".";
+                        display: block;
+                        height: 0;
+                        line-height: 0;
+                        clear: both;
+                        visibility: hidden;
+                    }
+                    .teamMate h2 {
+                        font-size: 1.4em;
+                        font-weight: normal;
+                        padding-top: 20px;
+                    }
+                    .teamMate p {
+                        margin: 5px 0;
+                    }
+                    .teamMate img {
+                        float: left;
+                        margin: 5px 15px 5px 5px;
+                        border: 1px solid #ccc;
+                    }
+                </style>
+            </div>
+        </span>
+
+        <!-- Right Side - Forums
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <span id="App-Content-Right" class="k-content" style="visibility: hidden;">
+            <div style="width: 500px;">
+                <div id="listView"></div>
+                <div id="pager" class="k-pager-wrap"></div>
+            </div>
+            
+            <script type="text/x-kendo-template" id="template">
+                <div class="product">
+                    <img src="images/#:Type#.png" />
+                    <div>
+                        #:Phone#
+                        <br/>#:Email#
+                    </div>
+                    <p style="font-family: Verdana; font-size: 10px;">
+                        #:Price#
+                        <br/>
+                        <span style="text-align: left;">#:Description#</span>
+                        <br /><br />
+                        <span>
+                            <img src="images/delete-post.png"
+                                 onclick="App.Forums.RemoveRouter('#:Id#')"
+                                 class="#:CanDelete#"
+                                 style="width: 15px; height: 15px; cursor: pointer; vertical-align: middle; position: absolute; top: 2px; right: 2px;" />
+                            <img src="images/want-button.png"
+                                 onclick="App.Forums.WantRouter('#:Id#')"
+                                 style="cursor: pointer; width: 60px; height: 23px; vertical-align: middle; position: absolute; bottom: 5px; left: 5px;" />
+                            <span style="width: 40px; height: 23px; vertical-align: middle; position: absolute; bottom: 5px; right: 5px; background-image: url('images/counter.png'); color: black;">
+                                <span style="position: absolute; top: 5px;">#:WantCount#</span>
+                            </span>
+                        </span>
+                    </p>
+                </div>
+            </script>
+        </span>
+
+        <!-- Add New
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <div id="App-AddNew-Sell" class="k-content" style="display:none;">
+            <table>
+                <tr>
+                    <td style="float: right;">Type</td>
+                    <td><select id="App-AddNew-Sell-Type">
+                        <option>Bike</option>
+                        <option>Car</option>
+                        <option>Other</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td style="float: right;">Phone</td>
+                    <td><input id="App-AddNew-Sell-Phone" class="k-textbox" /></td>
+                </tr>
+                <tr>
+                    <td style="float: right;">Email</td>
+                    <td><input id="App-AddNew-Sell-Email" class="k-textbox" /></td>
+                </tr>
+                <tr>
+                    <td style="float: right;">Description</td>
+                    <td><input id="App-AddNew-Sell-Description" class="k-textbox" /></td>
+                </tr>
+                <tr>
+                    <td style="float: right;">Price</td>
+                    <td><input id="App-AddNew-Sell-Price" class="k-textbox" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span id="App-AddNew-Sell-CancelButton" class="k-button" style="width: 100px; float: right;">Cancel</span>
+                        <span id="App-AddNew-Sell-AddButton" class="k-button" style="width: 100px; float: right;">Add</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Right Side - Chat
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <span id="App-Content-Right-Chat" class="k-content" style="visibility: hidden;">
+            <div style="width: 300px; height: 370px;">
+                <div id="App-Content-Right-Chat-ListView" style="overflow: auto; height: 365px;"></div>
+                <!-- div id="App-Content-Right-Chat-Pager" class="k-pager-wrap"></!--div -->
+            </div>
+            <form>
+                <input id="App-Content-Right-Chat-Message" class="k-textbox" placeholder="message" style="width: 195px; margin-left: 5px;" />
+                <button id="App-Content-Right-Chat-SendButton" class="k-button k-state-selected" style="width: 90px;" type="submit">Send</button>
+            </form>
+
+            <script type="text/x-kendo-template" id="App-Content-Right-Chat-Template">
+                <span style="font-weight:bold; margin-left: 5px;">#:OwnerId#</span>
+                <span style="font-size: 9px; font-style:italic;">#:WhenAsString#</span>
+                <div style="margin-left: 5px;">#:Message#</div>
+                <br />
+            </script>
+        </span>
+
+        <!-- Add New
+        ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ ~~~~ -->
+        <div id="App-ShowInterestedUsers" class="k-content" style="display:none;"></div>
+
+    </body>
+
+</html>
