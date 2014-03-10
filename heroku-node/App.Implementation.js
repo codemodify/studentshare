@@ -1,4 +1,3 @@
-
 App = {};
 App.HouseKeeping = {};
 
@@ -37,6 +36,6 @@ App.Run = function () {
 	App.Db = require("mongoose");
 	App.Db.connection.on("error", console.error.bind(console, "DB-Error: "));
 	App.Db.connection.once("open", App.HouseKeeping.OnDbConnect);
-    App.Db.connect("mongodb://mumstudentshare:mumstudentshare@ds049888.mongolab.com:49888/mumstudentshare");
+    App.Db.connect("mongodb://xxx");
 	//App.Db.connect("mongodb://127.0.0.1:9090/mum-student-share");
 }
