@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatSectionFragment">
+
+    <FrameLayout
+        android:id="@+id/ChatMessagesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/SendChatButton" />
+
+    <EditText
+        android:id="@+id/NewChatMessageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/SendChatButton"
+        android:hint="@string/NewChatMessageEditTextHint"
+        android:shadowColor="@android:color/holo_purple" />
+
+    <Button
+        android:id="@+id/SendChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/SendChatButtonTitle" />
+
+</RelativeLayout>
+<!-- From: file:/home/nicu/AndroidStudioProjects/studentshare/app/src/main/res/layout/fragment_chat.xml -->

@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/AddActivityTypeValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/AddActivityPhoneValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/AddActivityPhone" />
+
+    <EditText
+        android:id="@+id/AddActivityEmailValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/AddActivityEmail" />
+
+    <EditText
+        android:id="@+id/AddActivityDescriptionValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/AddActivityDescription" />
+
+    <EditText
+        android:id="@+id/AddActivityPriceValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/AddActivityPrice" />
+
+    <Button
+        android:id="@+id/AddActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AddActivityAdd"
+        android:paddingBottom="0dp" />
+
+</LinearLayout>

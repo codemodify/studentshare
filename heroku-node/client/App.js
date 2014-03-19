@@ -68,7 +68,8 @@ App.Auth.LoginButtonClicked = function () {
     if (user.trim().length === 0 || pass.trim().length === 0)
         return;
 
-    var service = "http://" + window.location.host + "/LoginUser/" + user + "/" + pass;
+    var deviceRegistrationId = "000";
+    var service = "http://" + window.location.host + "/LoginUser/" + user + "/" + pass + "/" + deviceRegistrationId;
 
     jQuery.ajax({
         url: service,
@@ -106,7 +107,8 @@ App.Auth.RegisterButtonClicked = function () {
     if (user.trim().length === 0 || pass.trim().length === 0)
         return;
 
-    var service = "http://" + window.location.host + "/RegisterUser/" + user + "/" + pass;
+    var deviceRegistrationId = "000";
+    var service = "http://" + window.location.host + "/RegisterUser/" + user + "/" + pass + "/" + deviceRegistrationId;
     
     jQuery.ajax({
         url: service,

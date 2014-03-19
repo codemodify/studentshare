@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SS</string>
+    <string name="app_title">Student Share</string>
+
+    <string name="MenuItemAdd">Add</string>
+    
+    <string name="BorrowSectionTitle">Borrow</string>
+    <string name="BorrowSectionAddFailure">Unable to add borrow</string>
+
+    <string name="SellSectionTitle">Get Rid (sell)</string>
+    <string name="SellSectionAddFailure">Unable to add sell</string>
+
+    <string name="BuySectionTitle">Wanted (buy)</string>
+    <string name="BuySectionAddFailure">Unable to add buy</string>
+
+    <string name="ChatSectionTitle">Chat !</string>
+    <string name="ChatSectionFailedToSendMessage">Unable to send chat message</string>
+    <string name="ChatSectionLoadingMessages">Loading messages</string>
+
+    <string name="NewChatMessageEditTextHint">message</string>
+    <string name="SendChatButtonTitle">Send</string>
+
+    <string name="AuthenticationTitle">Authenticate</string>
+    <string name="AuthenticationLoginButton">Login</string>
+    <string name="AuthenticationRegisterButton">Register</string>
+    <string name="AuthenticationLoading">Authenticating</string>
+    <string name="AuthenticationFailed">Authentication Failed</string>
+    <string name="AuthenticationSucceeded">Authentication Succeeded</string>
+    <string name="RegistrationLoading">Registering</string>
+    <string name="RegistrationFailed">Registration Failed</string>
+    <string name="RegistrationSucceeded">Registration Succeeded</string>
+
+    <string name="LoremIpsum">Lorem ipsum dolor sit amet, mandamus deseruisse scribentur mel ne, discere contentiones ea vim. Rebum quaestio pro cu, cum cu mundi dignissim, nec dicant nonumy posidonium ut. Vim an augue sonet nonumes, erat mundi patrioque mel cu, cetero meliore eu eam. Ne assum tation ius, probo commodo adipiscing ei vix. An pro eius quas dolorem, eirmod electram has id.</string>
+    <string name="LoremIpsumShort">Voluptua conclusionemque, graeco volutpat splendide.</string>
+
+    <string name="AddActivityType">Type</string>
+    <string name="AddActivityPhone">Phone</string>
+    <string name="AddActivityEmail">Email</string>
+    <string name="AddActivityDescription">Description</string>
+    <string name="AddActivityPrice">Price</string>
+    <string name="AddActivityAdd">Add</string>
+
+    <string name="GcmRegistrationFailed">Unable to subscribe for notifications</string>
+
+</resources>

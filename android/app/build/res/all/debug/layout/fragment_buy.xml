@@ -1,0 +1,14 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuySectionFragment" >
+
+    <FrameLayout
+        android:id="@+id/BuyListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+<!-- From: file:/home/nicu/AndroidStudioProjects/studentshare/app/src/main/res/layout/fragment_buy.xml -->

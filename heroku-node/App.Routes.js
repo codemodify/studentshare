@@ -18,7 +18,7 @@ App.Routes.Persister.RegisterUser = function (params, response, responseDelegate
 		        }
 		        else {
                     var guid = require("node-uuid");
-	
+
                     var user = new App.DataModels.User();
 		                user.Id = guid.v4();
 		                user.Name = params.Name;
@@ -30,11 +30,12 @@ App.Routes.Persister.RegisterUser = function (params, response, responseDelegate
 					                responseDelegate(response, "");
 				                }
 				                else {
+                                    App.Routes.Persister.UpdateDeviceWithUserId(params.DeviceRegistrationId, user.Id);
 					                responseDelegate(response, user.Id);
 				                }
 			                }
 		                );
-		        }		        
+		        }
 		    }
 		}
 	);
@@ -48,15 +49,15 @@ App.Routes.Persister.LoginUser = function (params, response, responseDelegate) {
 		function (err, users) {
 			if (err) {
 				console.log( err );
-				responseDelegate( response, null );
+				responseDelegate (response, null);
 			}
 			else {
 			    var user = null;
 
                 if (users.length > 0) {
                     user = users[0];
+                    App.Routes.Persister.UpdateDeviceWithUserId(params.DeviceRegistrationId, user.Id);
                 }
-
                 responseDelegate(response, user);
 			}
 		}
@@ -108,6 +109,7 @@ App.Routes.Persister.ChatSendMessage = function (params, response, responseDeleg
                                     responseDelegate(response, "");
                                 }
                                 else {
+                                    App.Gcm.Send(users[0].Name, chat.Message, "chat");
                                     responseDelegate(response, "");
                                 }
                             }
@@ -825,4 +827,60 @@ App.Routes.GetStaticResource = function (params, response, responseDelegate) {
         response.end();
         console.log("DEBUG_EXEPTION: " + e);
     }
+}
+
+App.Routes.Persister.SaveDeviceRegistrationId = function (params, response, responseDelegate) {
+
+    App.DataModels.Device.find( {Id: params.DeviceRegistrationId },
+        function (err, devices) {
+            if (err) {
+                console.log(err);
+                responseDelegate(response, null);
+            }
+            else {
+                if (devices.length > 0) {
+                    responseDelegate(response, "exists");
+                }
+                else {
+                    var guid = require("node-uuid");
+
+                    var device = new App.DataModels.Device();
+                        device.Id = params.DeviceRegistrationId; //new Buffer(params.DeviceRegistrationId, "base64").toString("ascii");
+                        device.UserId = "";
+                        device.save( 
+                            function(err, devices) {
+                                if (err) {
+                                    console.log(err);
+                                    responseDelegate(response, "");
+                                }
+                                else {
+                                    responseDelegate(response, device.Id);
+                                }
+                            }
+                        );
+                }
+            }
+        }
+    );    
+}
+
+App.Routes.Persister.UpdateDeviceWithUserId = function (deviceRegistrationId, userId) {
+
+    App.DataModels.Device.findOne({ Id: deviceRegistrationId }, function (err, doc) {
+
+        if (err) {
+            console.log(err);
+        }
+        else {
+
+            console.log("###################################################################################");
+            console.log("DeviceRegistrationId: " + deviceRegistrationId);
+            console.log("UserId: " + userId);
+
+            if (doc !== null) {
+                doc.UserId = userId;
+                doc.save();
+            }
+        }
+    });
 }

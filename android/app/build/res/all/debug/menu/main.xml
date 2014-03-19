@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/MenuItemAdd"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/MenuItemAdd" />
+
+</menu>
+<!-- From: file:/home/nicu/AndroidStudioProjects/studentshare/app/src/main/res/menu/main.xml -->

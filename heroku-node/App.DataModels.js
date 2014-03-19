@@ -12,7 +12,8 @@ App.DataModels.Configure = function () {
 			Id: String,
 			Name: String,
 			Pass: String,
-			Email: String
+			Email: String,
+            DeviceRegistrationId: String
 		},
 		schemaOptions
 	);
@@ -85,6 +86,13 @@ App.DataModels.Configure = function () {
 		schemaOptions
 	);
 
+    var devicesSchema = new App.Db.Schema({
+            Id: String,
+            UserId: String
+        },
+        schemaOptions
+    );
+
 	App.DataModels.User = App.Db.model("User", userSchema);
 
 	App.DataModels.Chat = App.Db.model("Chat", chatSchema);
@@ -96,4 +104,6 @@ App.DataModels.Configure = function () {
 	App.DataModels.BorrowWant = App.Db.model("BorrowWant", borrowWantSchema);
 	App.DataModels.SellWant = App.Db.model("SellWant", sellWantSchema);
 	App.DataModels.SearchWant = App.Db.model("SearchWant", searchWantSchema);
+
+    App.DataModels.Device = App.Db.model("Device", devicesSchema);
 }

@@ -1,11 +1,12 @@
 
 require("./App.Implementation.js");
 require("./App.Routes.js");
+require("./App.Gcm.js");
 require("./App.DataModels.js");
 
 App.Configure();
-App.DefineRoute("/RegisterUser/:Name/:Pass"                                     , App.Routes.Persister.RegisterUser);
-App.DefineRoute("/LoginUser/:Name/:Pass"                                        , App.Routes.Persister.LoginUser);
+App.DefineRoute("/RegisterUser/:Name/:Pass/:DeviceRegistrationId"               , App.Routes.Persister.RegisterUser);
+App.DefineRoute("/LoginUser/:Name/:Pass/:DeviceRegistrationId"                  , App.Routes.Persister.LoginUser);
 App.DefineRoute("/UpdateUserProfile/:UserId/:Email"                             , App.Routes.Persister.UpdateUserProfile);
 
 App.DefineRoute("/ChatSendMessage/:UserId/:Message"                             , App.Routes.Persister.ChatSendMessage);
@@ -31,6 +32,9 @@ App.DefineRoute("/GetInterestedUsers/:UserId"                                   
 App.DefineRoute("/GetInterestedUsersToBorrow/:ItemId"                           , App.Routes.Persister.GetInterestedUsersToBorrow);
 App.DefineRoute("/GetInterestedUsersToSell/:ItemId"                             , App.Routes.Persister.GetInterestedUsersToSell);
 App.DefineRoute("/GetInterestedUsersToSearch/:ItemId"                           , App.Routes.Persister.GetInterestedUsersToSearch);
+
+App.DefineRoute("/SaveDeviceRegistrationId/:DeviceRegistrationId"               , App.Routes.Persister.SaveDeviceRegistrationId);
+
 
 /*
 App.DefineRoute("/MyService1"               , App.Routes.MyService1             );
