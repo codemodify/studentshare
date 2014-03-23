@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+		<link href="styles/kendo.common.min.css" rel="stylesheet" />
+		<link href="styles/kendo.default.min.css" rel="stylesheet" />
+		<link href="styles/kendo.mobile.all.min.css" rel="stylesheet" />
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.base64.min.js"></script>
+    	<script src="js/kendo.all.min.js"></script>
+
+        <title>Student Share</title>
+    </head>
+    <body>
+		<div data-role="view" id="tabstrip-profile" data-title="Borrow" data-layout="mobile-tabstrip">
+	
+			test
+
+		</div>
+		<div data-role="view" id="tabstrip-sales" data-title="Get Rid (Sell)" data-layout="mobile-tabstrip">
+			<ul data-role="listview" data-style="inset" data-type="group">
+				<li>
+					Sales 2011
+					<ul>
+						<li>January <span class="sales-up">&uarr; $ 35,000</span></li>
+						<li>February <span class="sales-down">&darr; $ 25,000</span></li>
+						<li>March <span class="sales-down">&darr; $ 23,000</span></li>
+						<li>April <span class="sales-up">&uarr; $ 30,000</span></li>
+						<li>May <span class="sales-up">&uarr; $ 31,000</span></li>
+						<li>June <span class="sales-down">&darr; $ 29,000</span></li>
+						<li>July <span class="sales-up">&uarr; $ 35,000</span></li>
+						<li>August <span class="sales-up">&uarr; $ 37,000</span></li>
+						<li>September <span class="sales-hold">&rarr; $ 37,000</span></li>
+						<li>October <span class="sales-hold">&rarr; $ 37,000</span></li>
+						<li>November <span class="sales-up">&uarr; $ 38,000</span></li>
+						<li>December <span class="sales-up">&uarr; $ 40,000</span></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div data-role="view" id="tabstrip-rating" data-title="Wanted (Buy)" data-layout="mobile-tabstrip">
+			<ul data-role="listview" data-style="inset" data-type="group">
+				<li>
+					Sales Representatives
+					<ul>
+						<li data-icon="toprated">1. Andrew Fuller</li>
+						<li data-icon="toprated">2. Janet Leverling</li>
+						<li data-icon="toprated" style="background-color: Green; color: #fff;">3. Carine Callahan</li>
+						<li data-icon="toprated">4. Margaret Johnson</li>
+						<li data-icon="toprated">5. Steve Collins</li>
+						<li data-icon="toprated">6. Maria Steward</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div data-role="view" id="tabstrip-settings" data-title="Chat" data-layout="mobile-tabstrip">
+			<ul data-role="listview" data-style="inset" data-type="group" id="ChatMessages">
+			</ul>
+		</div>
+
+		<div data-role="layout" data-id="mobile-tabstrip">
+			<header data-role="header">
+				<div data-role="navbar">
+					<!--<a class="nav-button" data-align="left" data-role="backbutton">Back</a>-->
+					<span data-role="view-title"></span>
+					<span data-align="right" data-role="button" data-icon="add" data-click="NewItemClick"></span>
+				</div>
+			</header>
+
+			<p>TabStrip</p>
+
+			<div data-role="footer">
+				<div data-role="tabstrip" data-select="onSelect">
+					<a href="#tabstrip-profile"  data-icon="share"    id="borrow">Borrow</a>
+					<a href="#tabstrip-sales"    data-icon="history"  id="sell">Get Rid</a>
+					<a href="#tabstrip-rating"   data-icon="search"   id="buy">Wanted</a>
+					<a href="#tabstrip-settings" data-icon="contacts" id="chat">Chat</a>
+					<!-- a href="" data-icon="" id="logger">Log</a -->
+				</div>
+			</div>
+		</div>
+
+		<div data-role="modalview" id="modalview-login" style="width: 90%;">
+			<div data-role="header">
+				<div data-role="navbar">
+					<span>Login</span>
+					<a data-click="closeModalViewLogin" data-role="button" data-align="right">Cancel</a>
+				</div>
+			</div>
+
+			<ul data-role="listview" data-style="inset">
+				<li><label for="username">User: <input type="text" id="username" /></label></li>
+				<li><label for="password">Pass: <input type="password" id="password" /></label></li>
+			</ul>
+			<a data-click="LoginUser" id="modalview-login-button" type="button" data-role="button">Login</a>
+			<a data-click="RegiserUser" id="modalview-reg-button" type="button" data-role="button">Register</a>
+		</div>
+
+		<div data-role="modalview" id="modalview-chat" style="width: 90%;">
+			<div data-role="header">
+				<div data-role="navbar">
+					<span>Message</span>
+					<a data-click="closeModalViewChat" data-role="button" data-align="right">Cancel</a>
+				</div>
+			</div>
+
+			<ul data-role="listview" data-style="inset">
+				<li><label for="username">>&nbsp;<input type="text" id="newchatmessage" /></label></li>
+			</ul>
+			<a data-click="SendMessage" id="modalview-login-button" type="button" data-role="button">Send</a>
+		</div>
+
+		<style scoped>
+			#tabstrip-profile h2 {
+				display: inline-block;
+				font-size: 1.1em;
+				margin: 1.5em 0 0 .7em;
+			}
+			#tabstrip-profile h2 span {
+				display: block;
+				clear: both;
+				font-size: 1.8em;
+				margin: .1em 0 0 0;
+			}
+			#tabstrip-profile img {
+				width: 5em;
+				height: 5em;
+				float: left;
+				margin: 1em;
+				border: 1px solid rgba(0,0,0,.2);
+				-webkit-border-radius: 4em;
+				border-radius: 4em;
+			}
+	
+			.sales-down,
+			.sales-hold,
+			.sales-up,
+			.value {
+				float: right;
+			}
+			.sales-up { color: green; }
+			.sales-down { color: red; }
+			.sales-hold { color: blue; }
+			.value { color: #bbb; }
+		</style>
+
+		<style scoped>
+			#modalview-login-button,
+			#modalview-reg-button,
+			#modalview-open-button {
+				display: block;
+				text-align: center;
+				margin: .6em .8em;
+				font-size: 1.2em;
+			}
+
+			#modalview-open-button {
+				margin: 0 3em;
+				padding: .5em;
+			}
+			.km-flat #modalview-open-button {
+				color: #fff;
+			}
+
+			#modalview-camera {
+				text-align: center;
+			}
+
+			#modalview-camera img {
+				display: block;
+				margin: 30px auto;
+			}
+
+			#modalview-camera .km-content,
+			.km-ios #modalview-login .km-content {
+				background: url(../../content/shared/images/patterns/pattern1.png) repeat 0 0;
+			}
+
+			#modalview-login label {
+				display: inline-block;
+				width: 100%;
+			}
+			.km-ios #modalview-camera .km-button,
+			.km-ios #modalview-login .km-button,
+			.km-ios #modalview-camera .km-navbar,
+			.km-ios #modalview-login .km-header,
+			.km-blackberry #modalview-camera .km-navbar,
+			.km-blackberry #modalview-login .km-navbar
+			{
+				background-color: #000;
+			}
+
+			.km-blackberry #modalview-camera .km-button
+			{
+				color: #fff;
+			}
+
+			.km-ios #modalview-camera .km-button:active,
+			.km-ios #modalview-camera .km-state-active,
+			.km-ios #modalview-login .km-button:active,
+			.km-ios #modalview-login .km-state-active {
+				background-color: #2e2e2e;
+			}
+
+			.km-ios #modalview-login #modalview-login-button,
+			.km-flat #modalview-login #modalview-login-button {
+				background-color: Green;
+				color: #fff;
+			}
+
+			.km-tablet .km-ios #modalview-camera .km-view-title,
+			.km-tablet .km-ios #modalview-login .km-view-title {
+				color: #fff;
+				text-shadow: 0 -1px rgba(0,0,0,.5);
+			}
+		</style>
+
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/App.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+            var app = new kendo.mobile.Application(document.body);
+
+			function NewItemClick(e) {
+			
+				if (SSApp.Auth.UserId === "" || SSApp.Auth.User === "" || SSApp.Auth.Pass === "") {
+					$("#modalview-login").data("kendoMobileModalView").open()
+					return;
+				}
+
+ 				var tabstrip = app.view().footer.find(".km-tabstrip").data("kendoMobileTabStrip");
+				var currentItem = tabstrip.currentItem();
+				var id = currentItem.attr('id');			
+				
+				if (id === "borrow") {
+				}
+				else if (id === "sell") {
+				}
+				else if (id === "buy") {
+				}
+				else if (id === "chat") {
+					$("#modalview-chat").kendoMobileModalView("open");
+				}
+			}
+
+			function onSelect(e) {
+				var id = e.item.attr('id');
+
+				if (id === "borrow") {
+				}
+				else if (id === "sell") {
+				}
+				else if (id === "buy") {
+				}
+				else if (id === "chat") {
+					LoadChatContent();
+				}
+			}
+
+			function LoadChatContent() {
+				var service = SSApp.HouseKeeping.ServiceUrl + "/ChatGetMessages"
+					+ "/" + SSApp.Auth.UserId
+					+ "/" + SSApp.Forums.ChatLastId;
+
+				jQuery.ajax({
+					url: service,
+					dataType: "json",
+					cache: false,
+					timeout: 5000,
+					success: function(data) {
+
+						$('#ChatMessages').empty();
+
+						for (var i=0; i < data.length; i++) {
+							var node = '<li>';
+								node += '<span style="margin-left:  5px; font-size: 15px; font-weight:bold; ">'+ data[i].OwnerId +'</span>';
+								node += '<span style="margin-right: 5px; font-size: 9px; font-style:italic;">'+ data[i].When +'</span>';
+								node += '<div style="margin-left:   5px; font-size: 9px; ">'+ data[i].Message +'</div>';
+								node += '<br />';
+								node += '</li>';
+
+							$('#ChatMessages').append(node);
+						}
+					},
+					error: function (jqXHR, textStatus, errorThrown) {
+					}
+				});
+			}
+
+			function SendMessage() {
+
+				var message = jQuery("#newchatmessage").val();
+				if (message === "")
+					return;
+
+				jQuery("#newchatmessage").val("");
+				closeModalViewChat();
+
+				var service = SSApp.HouseKeeping.ServiceUrl + "/ChatSendMessage"
+					+ "/" + SSApp.Auth.UserId
+					+ "/" + jQuery.base64.encode(message);
+
+				jQuery.ajax({
+					url: service,
+					dataType: "json",
+					cache: false,
+					timeout: 5000,
+					success: function (data) {
+
+						LoadChatContent();
+					},
+					error: function (jqXHR, textStatus, errorThrown) {
+						alert('Error: ' + textStatus + " " + errorThrown);
+					}
+				});
+			}
+
+			function LoginUser() {
+				var user = jQuery("#username").val();
+				var pass = jQuery("#password").val();
+
+				if (user.trim().length === 0 || pass.trim().length === 0)
+					return;
+
+				var deviceRegistrationId = "000";
+				var service = SSApp.HouseKeeping.ServiceUrl + "/LoginUser/" + user + "/" + pass + "/" + deviceRegistrationId;
+
+				jQuery.ajax({
+					url: service,
+					dataType: "json",
+					cache: false,
+					timeout: 5000,
+					success: function(user) {
+						if (user !== null) {
+
+							SSApp.Auth.UserId = user.Id;
+							SSApp.Auth.User = user.Name;
+							SSApp.Auth.Pass = user.Pass;
+							SSApp.Auth.Email = user.Email;
+						}
+						else {
+							alert("Sorry no such user. You'll have to register.");
+						}
+					},
+					error: function(jqXHR, textStatus, errorThrown) {
+						alert('Error: ' + textStatus + " " + errorThrown);
+					}
+				});
+				
+				closeModalViewLogin();
+			}
+
+			function RegisterUser() {
+				var user = jQuery("#username").val();
+				var pass = jQuery("#password").val();
+
+				if (user.trim().length === 0 || pass.trim().length === 0)
+					return;
+
+				var deviceRegistrationId = "000";
+				var service = SSApp.HouseKeeping.ServiceUrl + "/RegisterUser/" + user + "/" + pass + "/" + deviceRegistrationId;
+	
+				jQuery.ajax({
+					url: service,
+					dataType: "json",
+					cache: false,
+					timeout: 5000,
+					success: function (userId) {
+
+						if (userId === "exists") {
+							alert("User already exists. Pick another one.");
+							return;
+						}
+
+						if (userId.length > 0) {
+
+							SSApp.Auth.UserId = userId;
+							SSApp.Auth.User = user;
+							SSApp.Auth.Pass = pass;
+						}
+						else {
+							alert("Sorry no such user. You'll have to register.");
+						}
+					},
+					error: function(jqXHR, textStatus, errorThrown) {
+						alert('Error: ' + textStatus + " " + errorThrown);
+					}
+				});
+				
+				closeModalViewLogin();
+			}
+
+			function closeModalViewLogin() {
+				$("#modalview-login").kendoMobileModalView("close");
+			}
+			function closeModalViewChat() {
+				$("#modalview-chat").kendoMobileModalView("close");
+			}			
+        </script>
+    </body>
+</html>

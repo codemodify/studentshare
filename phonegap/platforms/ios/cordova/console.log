@@ -1,0 +1,305 @@
+2014-03-22 15:55:54.998 HelloWorld[10323:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 15:55:55.104 HelloWorld[10323:70b] Resetting plugins due to page load.
+2014-03-22 15:55:55.345 HelloWorld[10323:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BA7998A1-962F-40FC-8DB1-B71901303FD5/HelloWorld.app/www/index.html
+2014-03-22 15:57:40.003 HelloWorld[10626:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 15:57:40.055 HelloWorld[10626:70b] Resetting plugins due to page load.
+2014-03-22 15:57:52.475 HelloWorld[10626:4003] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-03-22 15:57:52.486 HelloWorld[10626:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BA7998A1-962F-40FC-8DB1-B71901303FD5/HelloWorld.app/www/index.html
+2014-03-22 15:58:12.045 HelloWorld[10904:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 15:58:12.153 HelloWorld[10904:70b] Resetting plugins due to page load.
+2014-03-22 15:58:16.684 HelloWorld[10904:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E6E0700-DB9F-4893-9203-BD449F131F53/HelloWorld.app/www/index.html
+2014-03-22 15:59:03.953 HelloWorld[11188:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 15:59:04.006 HelloWorld[11188:70b] Resetting plugins due to page load.
+2014-03-22 15:59:10.843 HelloWorld[11188:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E6E0700-DB9F-4893-9203-BD449F131F53/HelloWorld.app/www/index.html
+2014-03-22 16:01:11.182 HelloWorld[11471:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:01:11.235 HelloWorld[11471:70b] Resetting plugins due to page load.
+2014-03-22 16:01:19.747 HelloWorld[11471:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E6E0700-DB9F-4893-9203-BD449F131F53/HelloWorld.app/www/index.html
+2014-03-22 16:07:28.643 HelloWorld[11802:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:07:28.696 HelloWorld[11802:70b] Resetting plugins due to page load.
+2014-03-22 16:07:28.790 HelloWorld[11802:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6E6E0700-DB9F-4893-9203-BD449F131F53/HelloWorld.app/www/index.html
+2014-03-22 16:07:41.672 HelloWorld[12098:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:07:41.780 HelloWorld[12098:70b] Resetting plugins due to page load.
+2014-03-22 16:07:41.807 HelloWorld[12098:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/79E5FCD4-31F4-4E2D-AABE-23DD89B316D0/HelloWorld.app/www/index.html
+2014-03-22 16:09:20.218 HelloWorld[12405:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:09:20.325 HelloWorld[12405:70b] Resetting plugins due to page load.
+2014-03-22 16:09:20.352 HelloWorld[12405:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/79E5FCD4-31F4-4E2D-AABE-23DD89B316D0/HelloWorld.app/www/index.html
+2014-03-22 16:14:55.067 HelloWorld[12718:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:14:55.234 HelloWorld[12718:70b] Resetting plugins due to page load.
+2014-03-22 16:14:55.397 HelloWorld[12718:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/9A3D59BD-7731-425A-8DE8-6CE10A275D04/HelloWorld.app/www/index.html
+2014-03-22 16:17:19.824 HelloWorld[13034:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:17:19.940 HelloWorld[13034:70b] Resetting plugins due to page load.
+2014-03-22 16:17:20.015 HelloWorld[13034:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/493B73BA-C518-4F4C-B443-A49710938372/HelloWorld.app/www/index.html
+2014-03-22 16:21:52.378 HelloWorld[13348:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:21:52.433 HelloWorld[13348:70b] Resetting plugins due to page load.
+2014-03-22 16:21:52.522 HelloWorld[13348:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/493B73BA-C518-4F4C-B443-A49710938372/HelloWorld.app/www/index.html
+2014-03-22 16:22:06.140 HelloWorld[13644:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:22:06.263 HelloWorld[13644:70b] Resetting plugins due to page load.
+2014-03-22 16:22:06.308 HelloWorld[13644:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/14CC4671-4E51-472E-A623-6BA54ED7DF14/HelloWorld.app/www/index.html
+2014-03-22 16:22:52.738 HelloWorld[13947:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:22:52.856 HelloWorld[13947:70b] Resetting plugins due to page load.
+2014-03-22 16:22:52.899 HelloWorld[13947:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/9AEFB8D4-6D7A-4070-B67B-99BC0DC91F2D/HelloWorld.app/www/index.html
+2014-03-22 16:30:22.787 HelloWorld[14252:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:30:22.930 HelloWorld[14252:70b] Resetting plugins due to page load.
+2014-03-22 16:30:23.072 HelloWorld[14252:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5078AE31-3057-4AEE-A676-880512A7EC04/HelloWorld.app/www/index.html
+2014-03-22 16:30:31.776 HelloWorld[14252:70b] Resetting plugins due to page load.
+2014-03-22 16:30:31.779 HelloWorld[14252:70b] Failed to load webpage with error: Frame load interrupted
+2014-03-22 16:45:33.049 HelloWorld[14637:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:45:33.128 HelloWorld[14637:70b] Resetting plugins due to page load.
+2014-03-22 16:45:33.174 HelloWorld[14637:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/EAA0197D-7006-4A4E-9D4D-A610CB7B476F/HelloWorld.app/www/index.html
+2014-03-22 16:53:37.086 HelloWorld[14990:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 16:53:37.556 HelloWorld[14990:70b] Resetting plugins due to page load.
+2014-03-22 16:53:37.620 HelloWorld[14990:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0969FD08-8339-4BAA-8166-1BFE18606600/HelloWorld.app/www/index.html
+2014-03-22 16:53:42.383 HelloWorld[14990:70b] Resetting plugins due to page load.
+2014-03-22 16:53:42.387 HelloWorld[14990:70b] Failed to load webpage with error: Frame load interrupted
+2014-03-22 17:03:24.451 HelloWorld[15405:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 17:03:25.303 HelloWorld[15405:70b] Resetting plugins due to page load.
+2014-03-22 17:03:26.300 HelloWorld[15405:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/862F7338-CCDB-4B0B-B415-D976D4CBBAD0/HelloWorld.app/www/index.html
+2014-03-22 17:03:45.043 HelloWorld[15405:4003] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** -[NSRegularExpression enumerateMatchesInString:options:range:usingBlock:]: nil argument'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x000ce1e4 __exceptionPreprocess + 180
+	1   libobjc.A.dylib                     0x01d048e5 objc_exception_throw + 44
+	2   CoreFoundation                      0x000cdfbb +[NSException raise:format:] + 139
+	3   Foundation                          0x0193e086 -[NSRegularExpression(NSMatching) enumerateMatchesInString:options:range:usingBlock:] + 215
+	4   Foundation                          0x0193df70 -[NSRegularExpression(NSMatching) numberOfMatchesInString:options:range:] + 159
+	5   HelloWorld                          0x000085c9 -[CDVWhitelistPattern matches:] + 713
+	6   HelloWorld                          0x0000a21d -[CDVWhitelist URLIsAllowed:logFailure:] + 1341
+	7   HelloWorld                          0x00009cb4 -[CDVWhitelist URLIsAllowed:] + 116
+	8   HelloWorld                          0x0000af58 +[CDVURLProtocol canInitWithRequest:] + 1160
+	9   Foundation                          0x019016fd +[NSURLProtocol(NSURLProtocolPrivate) _protocolClassForRequest:allowCF:] + 253
+	10  Foundation                          0x0190c4ba nsProtCanHandleRequest + 204
+	11  CFNetwork                           0x05c82be7 _ZN11ImplAdaptor25_canHandleRequestCallbackEPK13_CFURLRequestPKv + 33
+	12  CFNetwork                           0x05bfc4c3 _ZN19URLProtocolRegistry31bindImplementationForFoundationEPK13_CFURLRequest + 85
+	13  CFNetwork                           0x05c627be _ZN19URLProtocolRegistry21newProtocolForRequestEPK13__CFAllocatorPK13_CFURLRequestP17URLProtocolClient + 26
+	14  CFNetwork                           0x05c62682 _ZN19URLConnectionLoader29ensureLoaderHasProtocolNoLockEPK13_CFURLRequest + 480
+	15  CFNetwork                           0x05c62485 _ZN19URLConnectionLoader57createProtocolAndCopyCanonicalRequestBeforeLoadHasStartedEPK13_CFURLRequest + 25
+	16  CFNetwork                           0x05d02580 _ZN27URLConnectionClient_Classic51_clientInterface_precanonicalizeForSynchronousStartEv + 100
+	17  CFNetwork                           0x05cbf0d6 _ZN20ClassicURLConnection5startEv + 132
+	18  CFNetwork                           0x05c62098 CFURLConnectionStart + 40
+	19  WebCore                             0x04985a34 _ZN7WebCore14ResourceHandle5startEv + 308
+	20  WebCore                             0x04981e05 _ZN7WebCore14ResourceHandle6createEPNS_17NetworkingContextERKNS_15ResourceRequestEPNS_20ResourceHandleClientEbb + 565
+	21  WebCore                             0x049889a8 _ZN7WebCore14ResourceLoader5startEv + 200
+	22  WebCore                             0x04a8def9 _ZN7WebCore17SubresourceLoader12startLoadingEv + 137
+	23  WebCore                             0x0498ba6c _ZN7WebCore21ResourceLoadScheduler20servePendingRequestsEPNS0_15HostInformationENS_20ResourceLoadPriorityE + 332
+	24  WebCore                             0x0498b886 _ZN7WebCore21ResourceLoadScheduler12scheduleLoadEPNS_14ResourceLoaderENS_20ResourceLoadPriorityE + 438
+	25  WebCore                             0x0498b659 _ZN7WebCore21ResourceLoadScheduler23scheduleSubresourceLoadEPNS_5FrameEPNS_14CachedResourceERKNS_15ResourceRequestENS_20ResourceLoadPriorityERKNS_21ResourceLoaderOptionsE + 89
+	26  WebCore                             0x03db1b78 _ZN7WebCore14CachedResource4loadEPNS_20CachedResourceLoaderERKNS_21ResourceLoaderOptionsE + 1320
+	27  WebCore                             0x03db6026 _ZN7WebCore20CachedResourceLoader15requestResourceENS_14CachedResource4TypeERNS_21CachedResourceRequestE + 1126
+	28  WebCore                             0x03db6749 _ZN7WebCore20CachedResourceLoader18requestRawResourceERNS_21CachedResourceRequestE + 41
+	29  WebCore                             0x03f4d158 _ZN7WebCore24DocumentThreadableLoader11loadRequestERKNS_15ResourceRequestENS_19SecurityCheckPolicyE + 216
+	30  WebCore                             0x03f4cf91 _ZN7WebCore24DocumentThreadableLoaderC2EPNS_8DocumentEPNS_22ThreadableLoaderClientENS0_16BlockingBehaviorERKNS_15ResourceRequestERKNS_23ThreadableLoaderOptionsE + 449
+	31  WebCore                             0x03f4cd82 _ZN7WebCore24DocumentThreadableLoader6createEPNS_8DocumentEPNS_22ThreadableLoaderClientERKNS_15ResourceRequestERKNS_23ThreadableLoaderOptionsE + 66
+	32  WebCore                             0x04b9c54a _ZN7WebCore16ThreadableLoader6createEPNS_22ScriptExecutionContextEPNS_22ThreadableLoaderClientERKNS_15ResourceRequestERKNS_23ThreadableLoaderOptionsE + 154
+	33  WebCore                             0x04c78328 _ZN7WebCore14XMLHttpRequest13createRequestERi + 1240
+	34  WebCore                             0x04c778cd _ZN7WebCore14XMLHttpRequest4sendERKN3WTF6StringERi + 1357
+	35  WebCore                             0x04c77327 _ZN7WebCore14XMLHttpRequest4sendERi + 39
+	36  WebCore                             0x04713399 _ZN7WebCore16JSXMLHttpRequest4sendEPN3JSC9ExecStateE + 169
+	37  WebCore                             0x047108c3 _ZN7WebCore37jsXMLHttpRequestPrototypeFunctionSendEPN3JSC9ExecStateE + 115
+	38  ???                                 0xdf68be0f 0x0 + 3748183567
+	39  JavaScriptCore                      0x08901a7f _ZN3JSC11Interpreter11executeCallEPNS_9ExecStateEPNS_8JSObjectENS_8CallTypeERKNS_8CallDataENS_7JSValueERKNS_7ArgListE + 591
+	40  JavaScriptCore                      0x087dea31 _ZN3JSC4callEPNS_9ExecStateENS_7JSValueENS_8CallTypeERKNS_8CallDataES2_RKNS_7ArgListE + 97
+	41  WebCore                             0x0434faf6 _ZN7WebCore21JSMainThreadExecState4callEPN3JSC9ExecStateENS1_7JSValueENS1_8CallTypeERKNS1_8CallDataES4_RKNS1_7ArgListE + 198
+	42  WebCore                             0x04439f05 _ZN7WebCore15JSEventListener11handleEventEPNS_22ScriptExecutionContextEPNS_5EventE + 997
+	43  WebCore                             0x04035030 _ZN7WebCore11EventTarget18fireEventListenersEPNS_5EventEPNS_15EventTargetDataERN3WTF6VectorINS_23RegisteredEventListenerELm1ENS5_15CrashOnOverflowEEE + 544
+	44  WebCore                             0x04034c40 _ZN7WebCore11EventTarget18fireEventListenersEPNS_5EventE + 240
+	45  WebCore                             0x04019328 _ZNK7WebCore24MouseOrFocusEventContext17handleLocalEventsEPNS_5EventE + 200
+	46  WebCore                             0x0401a44c _ZN7WebCore15EventDispatcher8dispatchEv + 1020
+	47  WebCore                             0x04789844 _ZNK7WebCore26MouseEventDispatchMediator13dispatchEventEPNS_15EventDispatcherE + 132
+	48  WebCore                             0x040193fa _ZN7WebCore15EventDispatcher13dispatchEventEPNS_4NodeEN3WTF10PassRefPtrINS_21EventDispatchMediatorEEE + 138
+	49  WebCore                             0x0479f936 _ZN7WebCore4Node18dispatchMouseEventERKNS_18PlatformMouseEventERKN3WTF12AtomicStringEiPS0_ + 150
+	50  WebCore                             0x0401fc2f _ZN7WebCore12EventHandler18dispatchMouseEventERKN3WTF12AtomicStringEPNS_4NodeEbiRKNS_18PlatformMouseEventEb + 111
+	51  WebCore                             0x04021422 _ZN7WebCore12EventHandler23handleMouseReleaseEventERKNS_18PlatformMouseEventE + 1378
+	52  WebCore                             0x04025338 _ZN7WebCore12EventHandler7mouseUpEP8WebEvent + 168
+	53  WebKit                              0x03ba237c -[WebHTMLView mouseUp:] + 140
+	54  WebCore                             0x04beae9c -[WAKView _selfHandleEvent:] + 124
+	55  WebCore                             0x04beadf3 -[WAKView handleEvent:] + 67
+	56  WebCore                             0x04bee23d -[WAKWindow sendEventSynchronously:] + 349
+	57  UIKit                               0x0057c19b __47-[UIWebDocumentView(Interaction) performClick:]_block_invoke + 851
+	58  WebCore                             0x04c031f2 _WebThreadRun + 242
+	59  WebCore                             0x04c030f0 WebThreadRun + 16
+	60  UIKit                               0x0057be43 -[UIWebDocumentView(Interaction) performClick:] + 70
+	61  UIKit                               0x0057c987 __64-[UIWebDocumentView(Interaction) _sendMouseMoveAndAttemptClick:]_block_invoke + 379
+	62  WebCore                             0x04c036fa HandleRunSource + 522
+	63  CoreFoundation                      0x0005777f __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 15
+	64  CoreFoundation                      0x000571d5 __CFRunLoopDoSources0 + 437
+	65  CoreFoundation                      0x000741ae __CFRunLoopRun + 910
+	66  CoreFoundation                      0x000739d3 CFRunLoopRunSpecific + 467
+	67  CoreFoundation                      0x000737eb CFRunLoopRunInMode + 123
+	68  WebCore                             0x04c02e40 _ZL12RunWebThreadPv + 608
+	69  libsystem_pthread.dylib             0x026055fb _pthread_body + 144
+	70  libsystem_pthread.dylib             0x02605485 _pthread_struct_init + 0
+	71  libsystem_pthread.dylib             0x0260acf2 thread_start + 34
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+2014-03-22 17:18:13.265 HelloWorld[16279:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 17:18:13.948 HelloWorld[16279:70b] Resetting plugins due to page load.
+2014-03-22 17:18:14.540 HelloWorld[16279:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/1ED08839-7855-4D1A-BE14-F8A757C2CFC0/HelloWorld.app/www/index.html
+2014-03-22 17:19:26.677 HelloWorld[17095:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-22 17:19:27.014 HelloWorld[17095:70b] Resetting plugins due to page load.
+2014-03-22 17:19:27.341 HelloWorld[17095:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C2511C0F-12C7-43BE-AA2F-D93278D95F68/HelloWorld.app/www/index.html
+2014-03-23 11:08:25.453 HelloWorld[19145:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:08:25.899 HelloWorld[19145:70b] Resetting plugins due to page load.
+2014-03-23 11:08:26.561 HelloWorld[19145:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/9E856D47-177B-4D26-97EB-51C3E271F33C/HelloWorld.app/www/index.html
+2014-03-23 11:15:15.192 HelloWorld[20008:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:15:15.488 HelloWorld[20008:70b] Resetting plugins due to page load.
+2014-03-23 11:15:15.687 HelloWorld[20008:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/993B4F58-32A6-4373-9C0C-604BC7646B0A/HelloWorld.app/www/index.html
+2014-03-23 11:16:30.319 HelloWorld[20832:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:16:30.426 HelloWorld[20832:70b] Resetting plugins due to page load.
+2014-03-23 11:16:30.629 HelloWorld[20832:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/71842D92-18C7-4F2B-86D2-6CF403BB7C23/HelloWorld.app/www/index.html
+2014-03-23 11:17:06.191 HelloWorld[21646:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:17:06.282 HelloWorld[21646:70b] Resetting plugins due to page load.
+2014-03-23 11:17:06.485 HelloWorld[21646:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/15C8F8A2-65F3-466F-B96D-9D01054F08D5/HelloWorld.app/www/index.html
+2014-03-23 11:18:20.227 HelloWorld[22471:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:18:20.356 HelloWorld[22471:70b] Resetting plugins due to page load.
+2014-03-23 11:18:20.664 HelloWorld[22471:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8BD20981-A192-469A-A23D-6AF7C3D8AF53/HelloWorld.app/www/index.html
+2014-03-23 11:18:56.833 HelloWorld[23284:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:18:56.952 HelloWorld[23284:70b] Resetting plugins due to page load.
+2014-03-23 11:18:57.252 HelloWorld[23284:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/575DD469-812D-4FAF-A002-4235AB1929D4/HelloWorld.app/www/index.html
+2014-03-23 11:19:46.014 HelloWorld[24107:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:19:46.146 HelloWorld[24107:70b] Resetting plugins due to page load.
+2014-03-23 11:19:46.449 HelloWorld[24107:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/86F2EA9F-00B5-4060-B1C0-9931D2474951/HelloWorld.app/www/index.html
+2014-03-23 11:21:52.126 HelloWorld[24926:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:21:52.324 HelloWorld[24926:70b] Resetting plugins due to page load.
+2014-03-23 11:21:52.617 HelloWorld[24926:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/86F2EA9F-00B5-4060-B1C0-9931D2474951/HelloWorld.app/www/index.html
+2014-03-23 11:29:21.873 HelloWorld[25775:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:29:22.266 HelloWorld[25775:70b] Resetting plugins due to page load.
+2014-03-23 11:29:22.565 HelloWorld[25775:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/6478CAE6-05A9-4907-8A68-6CC21FD048B5/HelloWorld.app/www/index.html
+2014-03-23 11:30:22.342 HelloWorld[26593:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:30:22.653 HelloWorld[26593:70b] Resetting plugins due to page load.
+2014-03-23 11:30:22.976 HelloWorld[26593:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/4C36B0B9-1978-439C-B8D1-0349D3E966DA/HelloWorld.app/www/index.html
+2014-03-23 11:48:12.087 HelloWorld[27427:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:48:12.464 HelloWorld[27427:70b] Resetting plugins due to page load.
+2014-03-23 11:48:12.756 HelloWorld[27427:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3BB4D3AD-F84B-43A6-982B-1A889CE65F61/HelloWorld.app/www/index.html
+2014-03-23 11:55:25.950 HelloWorld[28266:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:55:26.255 HelloWorld[28266:70b] Resetting plugins due to page load.
+2014-03-23 11:55:26.620 HelloWorld[28266:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3D21D008-D063-44B9-AE20-DE628E69BA83/HelloWorld.app/www/index.html
+2014-03-23 11:56:31.705 HelloWorld[29088:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:56:32.010 HelloWorld[29088:70b] Resetting plugins due to page load.
+2014-03-23 11:56:32.318 HelloWorld[29088:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/88E2AC61-3BCA-472E-836A-9480DE9FD0E9/HelloWorld.app/www/index.html
+2014-03-23 11:59:34.991 HelloWorld[29908:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 11:59:35.108 HelloWorld[29908:70b] Resetting plugins due to page load.
+2014-03-23 11:59:35.380 HelloWorld[29908:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CA16FFA7-53E8-4051-B9DB-CEE5E5D0C296/HelloWorld.app/www/index.html
+2014-03-23 12:00:57.066 HelloWorld[30730:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 12:00:57.276 HelloWorld[30730:70b] Resetting plugins due to page load.
+2014-03-23 12:00:57.547 HelloWorld[30730:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/8BD7D830-A25A-4F94-8A7F-72D59075EA87/HelloWorld.app/www/index.html
+2014-03-23 12:03:38.751 HelloWorld[31554:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 12:03:38.856 HelloWorld[31554:70b] Resetting plugins due to page load.
+2014-03-23 12:03:39.120 HelloWorld[31554:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/53CDA267-D26A-4E7D-B2A9-D482CE1BE1B2/HelloWorld.app/www/index.html
+2014-03-23 12:04:24.451 HelloWorld[32368:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 12:04:24.730 HelloWorld[32368:70b] Resetting plugins due to page load.
+2014-03-23 12:04:25.030 HelloWorld[32368:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/53CDA267-D26A-4E7D-B2A9-D482CE1BE1B2/HelloWorld.app/www/index.html
+2014-03-23 12:45:18.814 HelloWorld[33335:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 12:45:19.210 HelloWorld[33335:70b] Resetting plugins due to page load.
+2014-03-23 12:45:19.526 HelloWorld[33335:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/69B152C0-A011-445B-9ED6-54E95BAB3943/HelloWorld.app/www/index.html
+2014-03-23 12:45:27.636 HelloWorld[33335:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395596719313'
+2014-03-23 12:45:27.637 HelloWorld[33335:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395596719313'
+2014-03-23 12:45:27.637 HelloWorld[33335:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395596719313'
+2014-03-23 12:51:24.342 HelloWorld[34163:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 12:51:24.802 HelloWorld[34163:70b] Resetting plugins due to page load.
+2014-03-23 12:51:25.162 HelloWorld[34163:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/11ABBF86-CB83-4E42-B6DD-5DB1ECC25CB1/HelloWorld.app/www/index.html
+2014-03-23 12:59:00.250 HelloWorld[34163:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597084915'
+2014-03-23 12:59:00.251 HelloWorld[34163:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597084915'
+2014-03-23 12:59:00.251 HelloWorld[34163:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597084915'
+2014-03-23 13:05:45.156 HelloWorld[35051:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:05:45.387 HelloWorld[35051:70b] Resetting plugins due to page load.
+2014-03-23 13:05:45.654 HelloWorld[35051:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/AFC13671-D6C2-42F9-8F1A-378FF7ED1CC9/HelloWorld.app/www/index.html
+2014-03-23 13:08:20.728 HelloWorld[35051:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597945451'
+2014-03-23 13:08:20.744 HelloWorld[35051:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597945451'
+2014-03-23 13:08:20.745 HelloWorld[35051:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597945451'
+2014-03-23 13:08:24.158 HelloWorld[35051:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597945452'
+2014-03-23 13:08:24.158 HelloWorld[35051:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597945452'
+2014-03-23 13:08:24.159 HelloWorld[35051:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395597945452'
+2014-03-23 13:11:38.118 HelloWorld[35881:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:11:38.976 HelloWorld[35881:70b] Resetting plugins due to page load.
+2014-03-23 13:11:39.318 HelloWorld[35881:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/3D5CC928-906B-4D35-BB63-3085B7D1896C/HelloWorld.app/www/index.html
+2014-03-23 13:11:40.376 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299090'
+2014-03-23 13:11:40.376 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299090'
+2014-03-23 13:11:40.377 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299090'
+2014-03-23 13:13:23.948 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299091'
+2014-03-23 13:13:23.955 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299091'
+2014-03-23 13:13:23.956 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299091'
+2014-03-23 13:13:32.268 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299092'
+2014-03-23 13:13:32.269 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299092'
+2014-03-23 13:13:32.269 HelloWorld[35881:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598299092'
+2014-03-23 13:15:04.347 HelloWorld[36713:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:15:04.618 HelloWorld[36713:70b] Resetting plugins due to page load.
+2014-03-23 13:15:04.988 HelloWorld[36713:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/96E291A1-E941-4B72-8964-1876D7B5BC82/HelloWorld.app/www/index.html
+2014-03-23 13:15:07.098 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504706'
+2014-03-23 13:15:07.099 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504706'
+2014-03-23 13:15:07.099 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504706'
+2014-03-23 13:15:15.209 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504707'
+2014-03-23 13:15:15.209 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504707'
+2014-03-23 13:15:15.210 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504707'
+2014-03-23 13:15:18.480 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504708'
+2014-03-23 13:15:18.480 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504708'
+2014-03-23 13:15:18.481 HelloWorld[36713:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598504708'
+2014-03-23 13:15:59.622 HelloWorld[37531:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:15:59.916 HelloWorld[37531:70b] Resetting plugins due to page load.
+2014-03-23 13:16:00.332 HelloWorld[37531:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/9307996D-F719-472E-AE02-15A35A51A622/HelloWorld.app/www/index.html
+2014-03-23 13:16:04.880 HelloWorld[37531:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598560063'
+2014-03-23 13:16:04.881 HelloWorld[37531:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598560063'
+2014-03-23 13:16:04.881 HelloWorld[37531:70b] ERROR whitelist rejection: url='http://mumstudentshare.herokuapp.com/ChatGetMessages/0000-0000-0000/0000-0000-0000?_=1395598560063'
+2014-03-23 13:19:41.977 HelloWorld[38370:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:19:41.983 HelloWorld[38370:70b] Unlimited access to network resources
+2014-03-23 13:19:42.344 HelloWorld[38370:70b] Resetting plugins due to page load.
+2014-03-23 13:19:42.729 HelloWorld[38370:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BA0FB2BB-B091-462C-8F8D-57D171352F8B/HelloWorld.app/www/index.html
+2014-03-23 13:26:24.348 HelloWorld[39216:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:26:24.362 HelloWorld[39216:70b] Unlimited access to network resources
+2014-03-23 13:26:24.661 HelloWorld[39216:70b] Resetting plugins due to page load.
+2014-03-23 13:26:25.034 HelloWorld[39216:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/BA0FB2BB-B091-462C-8F8D-57D171352F8B/HelloWorld.app/www/index.html
+2014-03-23 13:27:49.267 HelloWorld[40847:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:27:49.288 HelloWorld[40847:70b] Unlimited access to network resources
+2014-03-23 13:27:49.612 HelloWorld[40847:70b] Resetting plugins due to page load.
+2014-03-23 13:27:49.995 HelloWorld[40847:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/F765F476-83AE-46E0-9B4D-957735DAC9EC/HelloWorld.app/www/index.html
+2014-03-23 13:29:36.597 HelloWorld[41679:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:29:36.604 HelloWorld[41679:70b] Unlimited access to network resources
+2014-03-23 13:29:36.714 HelloWorld[41679:70b] Resetting plugins due to page load.
+2014-03-23 13:29:36.981 HelloWorld[41679:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/D39D5E77-EFFB-4427-B543-ADC777BFC6B2/HelloWorld.app/www/index.html
+2014-03-23 13:51:33.134 HelloWorld[42547:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:51:33.148 HelloWorld[42547:70b] Unlimited access to network resources
+2014-03-23 13:51:33.652 HelloWorld[42547:70b] Resetting plugins due to page load.
+2014-03-23 13:51:34.053 HelloWorld[42547:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/0B6F98C9-0C46-47F3-9B9D-AF27ACB2184B/HelloWorld.app/www/index.html
+2014-03-23 13:54:59.547 HelloWorld[43381:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:54:59.562 HelloWorld[43381:70b] Unlimited access to network resources
+2014-03-23 13:54:59.901 HelloWorld[43381:70b] Resetting plugins due to page load.
+2014-03-23 13:55:00.300 HelloWorld[43381:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2E0AB58D-6683-4053-8BDF-305EA3B81551/HelloWorld.app/www/index.html
+2014-03-23 13:56:32.681 HelloWorld[44207:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:56:32.688 HelloWorld[44207:70b] Unlimited access to network resources
+2014-03-23 13:56:33.053 HelloWorld[44207:70b] Resetting plugins due to page load.
+2014-03-23 13:56:33.468 HelloWorld[44207:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/CA780D72-125F-4BF4-8F84-5FB9CAF33DF7/HelloWorld.app/www/index.html
+2014-03-23 13:57:59.872 HelloWorld[45027:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 13:57:59.879 HelloWorld[45027:70b] Unlimited access to network resources
+2014-03-23 13:58:00.167 HelloWorld[45027:70b] Resetting plugins due to page load.
+2014-03-23 13:58:00.537 HelloWorld[45027:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A99D364B-9464-4633-833D-9E2A00AFA579/HelloWorld.app/www/index.html
+2014-03-23 14:17:02.335 HelloWorld[45957:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:17:02.342 HelloWorld[45957:70b] Unlimited access to network resources
+2014-03-23 14:17:02.608 HelloWorld[45957:70b] Resetting plugins due to page load.
+2014-03-23 14:17:02.889 HelloWorld[45957:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/2B261AC3-924C-44D0-8B9C-2B87FA07590D/HelloWorld.app/www/index.html
+2014-03-23 14:20:54.086 HelloWorld[46779:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:20:54.093 HelloWorld[46779:70b] Unlimited access to network resources
+2014-03-23 14:20:54.187 HelloWorld[46779:70b] Resetting plugins due to page load.
+2014-03-23 14:20:54.498 HelloWorld[46779:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/F4A9B92A-36AE-407F-8757-8DA65B8ADBF9/HelloWorld.app/www/index.html
+2014-03-23 14:22:11.757 HelloWorld[47599:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:22:11.764 HelloWorld[47599:70b] Unlimited access to network resources
+2014-03-23 14:22:11.874 HelloWorld[47599:70b] Resetting plugins due to page load.
+2014-03-23 14:22:12.174 HelloWorld[47599:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E1EF4060-BE92-4EB8-B438-F3864A12089F/HelloWorld.app/www/index.html
+2014-03-23 14:23:52.906 HelloWorld[48419:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:23:52.913 HelloWorld[48419:70b] Unlimited access to network resources
+2014-03-23 14:23:53.023 HelloWorld[48419:70b] Resetting plugins due to page load.
+2014-03-23 14:23:53.318 HelloWorld[48419:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/34D2B6BC-0513-4BDD-97EB-1241909BDB38/HelloWorld.app/www/index.html
+2014-03-23 14:25:08.369 HelloWorld[49239:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:25:08.375 HelloWorld[49239:70b] Unlimited access to network resources
+2014-03-23 14:25:08.478 HelloWorld[49239:70b] Resetting plugins due to page load.
+2014-03-23 14:25:08.774 HelloWorld[49239:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/56947EF0-D260-4526-8A4D-6180E52A47F3/HelloWorld.app/www/index.html
+2014-03-23 14:27:03.312 HelloWorld[50060:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:27:03.320 HelloWorld[50060:70b] Unlimited access to network resources
+2014-03-23 14:27:03.421 HelloWorld[50060:70b] Resetting plugins due to page load.
+2014-03-23 14:27:03.714 HelloWorld[50060:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5820FD52-D834-461B-89D8-9D73A687923D/HelloWorld.app/www/index.html
+2014-03-23 14:41:51.458 HelloWorld[50914:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:41:51.465 HelloWorld[50914:70b] Unlimited access to network resources
+2014-03-23 14:41:51.546 HelloWorld[50914:70b] Resetting plugins due to page load.
+2014-03-23 14:41:51.815 HelloWorld[50914:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/5820FD52-D834-461B-89D8-9D73A687923D/HelloWorld.app/www/index.html
+2014-03-23 14:42:03.438 HelloWorld[51725:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-23 14:42:03.445 HelloWorld[51725:70b] Unlimited access to network resources
+2014-03-23 14:42:03.556 HelloWorld[51725:70b] Resetting plugins due to page load.
+2014-03-23 14:42:03.891 HelloWorld[51725:70b] Finished load of: file:///Users/designstudio12/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/207A0FE0-8747-4211-B6E2-AD33ED538095/HelloWorld.app/www/index.html
